@@ -1,9 +1,8 @@
-# smolagent==0.1.0           # Commented out - package not available
-gpt_index==0.6.6           # LlamaIndex might appear as gpt_index in older versions
-# mcp==0.2.1                 # Commented out - package not available
-llama-index
-llama-index-embeddings-huggingface
-numpy
-pandas
-torch
-transformers
+# Simplified requirements to avoid dependency conflicts
+numpy>=1.20.0
+pandas>=1.5.0
+torch>=1.13.0
+transformers>=4.20.0
+# Comment out complex dependencies for now
+# llama-index
+# llama-index-embeddings-huggingface
